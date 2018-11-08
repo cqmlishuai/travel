@@ -5,7 +5,7 @@ export default [
     meta: {
       title: '个人中心'
     },
-    component: resolve => require(['@/pages/home'],resolve)
+    component: resolve => require(['@/pages/home/home'],resolve)
   }
 
 ]

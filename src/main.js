@@ -5,14 +5,16 @@ import App from './App'
 import router from './router'
 
 //css样式初始化
-import './assets/styles/reset.css'
+import 'styles/reset.css'
 //用于解决1像素显示问题
-import './assets/styles/border.css'
+import 'styles/border.css'
 //用于解决手机端300毫秒延迟
 import fastClick from 'fastclick'
 //用于适配
 import 'lib-flexible'
 
+//iconfont引入
+import 'styles/iconfont.css'
 Vue.config.productionTip = false
 fastClick.attach(document.body);
 
