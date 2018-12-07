@@ -3,7 +3,7 @@ export default [
     path: '/',
     name: 'home',
     meta: {
-      title: '个人中心'
+      title: '首页'
     },
     component: resolve => require(['@/pages/home/home'],resolve)
   }

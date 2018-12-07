@@ -12,11 +12,17 @@ import 'styles/border.css'
 import fastClick from 'fastclick'
 //用于适配
 import 'lib-flexible'
-
+//轮播插件引入
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+//轮播插件样式引入
+import 'swiper/dist/css/swiper.css'
+//轮播插件使用
+Vue.use(VueAwesomeSwiper);
 //iconfont引入
 import 'styles/iconfont.css'
 Vue.config.productionTip = false
 fastClick.attach(document.body);
+
 
 //路由导航守卫
 router.beforeEach((to,from,next) => {

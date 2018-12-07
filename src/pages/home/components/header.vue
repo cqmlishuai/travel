@@ -23,6 +23,7 @@
     //正常引入
     /*@import "~@/assets/styles/varibles.styl"*/
     //别名引入，去webpack.base.conf.js配置
+    
     @import "~styles/varibles.styl"
     .header
         display flex
